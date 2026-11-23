@@ -3,13 +3,13 @@
 title Abrir Herramientas de Trabajo
 
 :: 1. Abrir Google Chrome con todas las pestañas en una sola ventana
-start chrome "https://oficinavirtual.movistar/vpns/portal/homepage2.html" ^
+start chrome "https://globalmanagement.abaigroup.com/eportal/Account/Login" ^
+--new-tab "https://oficinavirtual.movistar/vpns/portal/homepage2.html" ^
 --new-tab "https://mail.abaigroup.pe/?client=advanced&loginOp=logout" ^
 --new-tab "http://172.18.0.30/ANDREUX/login" ^
---new-tab "https://globalmanagement.abaigroup.com/eportal/Account/Login" ^
---new-tab "https://planningindicators.pages.dev/" ^
 --new-tab "https://geniomovistar.com.pe/login/index.php" ^
 --new-tab "https://docs.google.com/spreadsheets/d/1AvtpjeDv-K2vX_UqmY-WyfD4_leFbGQ7ZKIOYI2W2yM/edit?gid=1713192291#gid=1713192291" ^
+--new-tab "https://planningindicators.pages.dev/" ^
 --new-tab "https://www.movistar.com.pe/atencion-al-cliente/centros-de-atencion" ^
 --new-tab "https://ventas.movistar.com.pe/login" ^
 --new-tab "https://visorclientes.movistar.com.pe/login" ^
@@ -25,12 +25,6 @@ start calculator:
 
 :: 4. Abrir la página web como "Aplicación" (App Mode) de Chrome en ventana independiente
 start chrome --app="https://matrix.aicccloud.com/service-cloud/aicc-web/index/index.html#/frame/audio-video-workbench"
-
-:: 5. Abre FortiClient VPN de forma directa
-start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FortiClient VPN"
-
-:: 6. Abre las Notas de Escritorio (Sticky Notes) de forma directa
-start shell:AppsFolder\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App
 
 
 :: Cierra la ventana del script automáticamente
